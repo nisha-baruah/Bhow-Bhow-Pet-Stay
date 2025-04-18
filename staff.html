@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet The Staff & Book A Stay - Doggie Inn</title>
+  <link rel="stylesheet" href="css/map.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Fredoka', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf8f2;
+      text-align: center;
+    }
+
+    .staff-section {
+      padding: 60px 30px 40px;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .staff-section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #5c3365;
+    }
+
+    .staff-section p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 10px auto 30px;
+      color: #444;
+    }
+
+    .staff-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+      margin-bottom: 60px;
+      justify-items: center;
+    }
+
+    .staff-card{
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    #staff-card-owner{
+        max-width: 500px;
+    }
+
+    .staff-card img {
+      width: 100%;
+      border-radius: 10px;
+      height: auto;
+    }
+
+    .staff-card h3 {
+      font-size: 1.2rem;
+      color: #55613e;
+      margin-top: 15px;
+    }
+
+    .staff-card p {
+      font-size: 1rem;
+      color: #333;
+      margin-top: 5px;
+    }
+
+    h1 {
+      color: #4a2c5b;
+    }
+
+    .map-container {
+      width: 100%;
+      max-width: 900px;
+      min-height: 750px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin: 0 auto 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 30px auto;
+      background-color: #7e4d86;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    .btn:hover {
+      background-color: #66366d;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <span><i class="fa fa-paw fa-3x" aria-hidden="true"></i></span>
+        
+        <div class="logo">BhowBhow Pet Stay</div> 
+    
+        <!--SIDEBAR-->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">&#9776;</label>
+        <nav class="main-nav">
+              <a href="./form.html">Book A Stay |</a>
+              <a href="./map.html">Reach Us |</a>
+              <a href="#">Meet the staff |</a>
+              <a href="#">FAQs |</a>
+              <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+  <!-- Staff Section -->
+  <section class="staff-section">
+    <h1>Meet The Staff</h1>
+    <p><strong>Bhow Bhow Pet Stay has been has been a home for pets for more than 6 years.</strong></p>
+    <p>Meet the staff members that has been looking after the lovely fur babies.</p>
+
+    <div class="staff-grid">
+      <div class="staff-card" id="staff-card-owner">
+        <img src="images/owner_image.jpg" alt="Patti J. Moran">
+        <h3>Mallika Sharma</h3>
+        <p>Owner</p>
+      </div>
+    </div>
+
+    <hr>
+    <br>
+
+    <div class="staff-grid">
+        <div class="staff-card">
+            <img src="images/owner_image.jpg" alt="Beth Stultz-Hairston">
+            <h3>Beth Stultz-Hairston</h3>
+            <p>Worker</p>
+          </div>
+  
+        <div class="staff-card">
+          <img src="images/owner_image.jpg" alt="Beth Stultz-Hairston">
+          <h3>Beth Stultz-Hairston</h3>
+          <p>Worker</p>
+        </div>
+  
+        <div class="staff-card">
+          <img src="images/owner_image.jpg" alt="Beth Stultz-Hairston">
+          <h3>Beth Stultz-Hairston</h3>
+          <p>Worker</p>
+        </div>
+      </div>
+  </section>
+
+  <a href="index.html" class="btn">Back to Home</a>
+
+</body>
+</html>
