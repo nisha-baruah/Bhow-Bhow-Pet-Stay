@@ -186,7 +186,7 @@
     /*WHY Choose*/
 
     .why-choose {
-      background-image: url("/images/bgimage.png");
+      background-image: url("../images/bgimage.png");
       background-size: cover;
       background-repeat: no-repeat;
       background-color: #e8abe177;
